@@ -1,0 +1,38 @@
+PEP-8 best practice guidelines:
+	* adding doc strings
+	* max of 79 chars for a line
+
+Django:
+	* ORM
+	* Django admin to manage db and visualize models
+
+Django Rest Framework:
+	* Build in authentication
+	* Viewsets
+	* Serializers
+	* Browsable API endpoint to test
+
+Docker:
+	* Isolate project dependencies
+	* Deploy to cloud
+
+Travis CI:
+	* Automate testing and linting
+	* CI tool integrating with github
+	* Notify by email if build fails
+
+PostgreSQL:
+	* Easy to setup with Docker
+
+
+Test Driven Development:
+	* Isolate specific codes at functions, class and api endpoints level
+	* Setup dummy objects => Execution by calling the code => Assertions for the validation
+	* Makes it easier to change code and saves time to identify
+	* Testable, better quality test
+	* Start in reverse:
+		* Write the tests => Implement the code
+	* Pros:
+		* Increase test coverage
+		* Ensure tests work
+		* Encourages quality code
